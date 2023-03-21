@@ -1,4 +1,5 @@
-public class Human implements CanRun, CanSwim{
+public class Human implements CanRun, CanSwim {
+
   @Override
   public void run(int speed, String direction) {
     System.out.printf("Human run with speed %d in direction %s", speed, direction);
