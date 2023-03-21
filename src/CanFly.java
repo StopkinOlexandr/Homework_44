@@ -3,5 +3,5 @@
 // "Умеет бегать" CanRun с методом run и "умеет плавать" CanSwim с методом swim
 // и реализуйте их в классе "Супермен" Superman.
 public interface CanFly {
-  void fly(int height, int speed, String direction);
+  void fly(int altitude, int speed, String direction);
 }
